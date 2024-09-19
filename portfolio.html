@@ -4,30 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        header{
-            font: size 40px;
-            color: green;
-            text-align: center;
-        }
-        nav ul{
-            display: flex;
-            list-style-type: none;
-            justify-content: center;
-        }
-        nav ul li{
-            margin: 1rem;
-        }
-        img{
-            width: 400px;
-            height: auto;
-        }
-        footer{
-            text-align: center;
-            padding: 1rem 0;
-            background-color: blue;
-        }
-    </style>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
     <header>
@@ -44,29 +21,36 @@
         </nav>
         
     </header>
-    <section id="About">
-        <h2> About</h2>
-        My Name is Ilegogie Aleneoghena Daniel,An Electrical Engineering graduate and novice web developer.My goal is to create apps and execute airdrops for web3 blockhain technology.
-        <img src="./images/WhatsApp Image 2024-09-07 at 14.36.09_1e620a63.jpg" alt="">
-
+    <section class="Container">
+        <div>
+            <h2>
+                Hello, I'm<br>Ilegogie Aleneoghena<br>Daniel
+            </h2>
+        </div>
+        <img src="./images/WhatsApp Image 2024-09-07 at 14.36.09_1e620a63.jpg" alt="" width="400px" height="400px">
     </section>
-    <section id="Work">
-        <h2> Work </h2>
-        i sell gadgets and work as a field enginner,collaborating with Bromma technician and managing mobile cranes.
-        <video controls width="auto " height="600px">
-            <source src="./videos/WhatsApp Video 2024-09-07 at 15.01.20_012840c3.mp4" type="video/mp4">
+    <section class="About">
+        <h2 id="about"> About</h2>
+        <p>
+            My Name is Ilegogie Aleneoghena Daniel,An Electrical Engineering graduate and novice web developer.My goal is to create apps and execute airdrops for web3 blockhain technology.
+        </p>
+    </section>
+    <section class="work">
+        <div>
+            <h2> Work </h2>
+        <p>i sell gadgets and work as a field enginner,collaborating with Bromma technician and managing mobile cranes.</p>
+        </div>
+        <video controls width="450px" height="400px">
+            <source src="./videos/WhatsApp Video 2024-09-07 at 15.01.20_012840c3.mp4" type="video/mp4" >
         </video>
     </section>
-    <div id="Resume">
+    <div class="resume">
         <h2>my Resume</h2>
-        <ul>
-            <li>Name: Ilegogie Aleneoghena Daniel </li>
-            <li>Phone number: +2348146217336</li>
-            <li>Email :<a href="mailto:">aleilegogie@gmail.com</a></li>
-            
-            
-
-        </ul>
+        <div>
+            <p>Name: Ilegogie Aleneoghena Daniel </p>
+            <p>Phone number: +2348146217336</p>
+            <p>Email :<a href="mailto:">aleilegogie@gmail.com</a></p>
+        </div>
 
     </div>
     <footer>
